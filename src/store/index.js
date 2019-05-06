@@ -23,19 +23,19 @@ const store = new Vuex.Store({
   plugins: [createLogger()],
   state: {
     categories: [
-      { name: 'Groceries', shortcut: '1', icon: 'shopping-cart' },
-      { name: 'Shopping', shortcut: '2', icon: 'shopping-bag' },
-      { name: 'Restaurants', shortcut: '3', icon: 'utensils' },
-      { name: 'Transport', shortcut: '4', icon: 'bus' },
-      { name: 'Entertainment', shortcut: '5', icon: 'film' },
-      { name: 'Travel', shortcut: '6', icon: 'plane' },
-      { name: 'Health', shortcut: '7', icon: 'hospital' },
-      { name: 'General', shortcut: '8', icon: 'question' },
-      { name: 'Utilities', shortcut: '9', icon: 'bolt' },
-      { name: 'Cash', shortcut: '0', icon: 'money-bill-wave' },
-      { name: 'Transfers', shortcut: 'a', icon: 'exchange-alt' },
-      { name: 'Insurance', shortcut: 'b', icon: 'car-crash' },
-      { name: 'Wealth', shortcut: 'c', icon: 'dollar-sign' }
+      { name: 'Groceries', shortcut: '1', icon: 'shopping-cart', color: '#17becf' },
+      { name: 'Shopping', shortcut: '2', icon: 'shopping-bag', color: '#377eb8' },
+      { name: 'Restaurants', shortcut: '3', icon: 'utensils', color: '#4daf4a' },
+      { name: 'Transport', shortcut: '4', icon: 'bus', color: '#984ea3' },
+      { name: 'Entertainment', shortcut: '5', icon: 'film', color: '#ff7f00' },
+      { name: 'Travel', shortcut: '6', icon: 'plane', color: '#a65628' },
+      { name: 'Health', shortcut: '7', icon: 'hospital', color: '#e41a1c' },
+      { name: 'General', shortcut: '8', icon: 'question', color: '#f781bf' },
+      { name: 'Insurance', shortcut: '9', icon: 'car-crash', color: '#eeca3b' },
+      { name: 'Cash', shortcut: '0', icon: 'money-bill-wave', color: '#439894' },
+      { name: 'Transfers', shortcut: 'a', icon: 'exchange-alt', color: '#83bcb6' },
+      { name: 'Utilities', shortcut: 'b', icon: 'bolt', color: '#999999' },
+      { name: 'Wealth', shortcut: 'c', icon: 'dollar-sign', color: '#79706e' }
     ],
     transactions: getTransactions()
   },
